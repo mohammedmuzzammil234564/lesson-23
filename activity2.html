@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>activity 2</title>
+</head>
+
+<body>
+    <h2>array methods in js</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <p id="p5"></p>
+
+    <script>
+        var fruits = ["mango", "apple", "cheery", "banana", "kiwi"];
+        document.getElementById("p1").innerHTML="original array is "+ fruits;
+        document.getElementById("p2").innerHTML = fruits.join("$");
+        fruits.pop();
+        document.getElementById("p3").innerHTML="Array after removing element is "+fruits;
+        fruits.push("papaya")
+        document.getElementById("p4").innerHTML = "Array after adding element is "+fruits;
+    </script>
+</body>
+
+</html>
